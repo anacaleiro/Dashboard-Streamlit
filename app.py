@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import plotly_express as px
 import seaborn as sns
 
-
+st.set_page_config(layout='wide')
 # Download necessary images 
 logo = Image.open("file.png")
 
