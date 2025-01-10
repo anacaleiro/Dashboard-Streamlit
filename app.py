@@ -69,8 +69,8 @@ if selected == "Home":
                 "Data Scientist " : ("Oumaima Hfaiedh", "20240699"),
                 "Data Scientist " : ("Rute Teixeira", "20240667"),
         }
-        for role, (name, student_id) in team_members.items():
-            st.write(f"**{role}**: {name} ({student_id})")
+        #for role, (name, student_id) in team_members.items():
+            #st.write(f"**{role}**: {name} ({student_id})")
 
     # App description
     st.markdown("""
